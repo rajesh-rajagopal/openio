@@ -1,7 +1,7 @@
 # Default ipaddress to use
 $ipaddr = '127.0.0.1'
 # Comma separated list of 'tenant:user:passwd:privileges'
-$default_tempauth_users = ['dev@rio.company:4ttqqTZ2#_P%nHRz:.admin']
+$default_tempauth_users = ['rio:user:4ttqqTZ2#_P%nHRz:.admin']
 
 # Deploy a single node
 class {'gridinit':
